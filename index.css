@@ -468,6 +468,9 @@ position: relative;
    left: 270px;
    
 }
+.pricing{
+   margin-top: 800px;
+}
 .pricing-flex{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
@@ -500,6 +503,20 @@ position: relative;
   flex-direction: column; */
   margin-top: 30px;
   margin-left: 1rem;
+  
 }
 
+}
+@media (max-width:609px){
+   .flex-box{
+      display: flex;
+     flex-direction: column;
+      margin-left: 100px;
+   }
+   .grid-cont{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 30px;
+      margin-left: 1rem;
+    }
 }
