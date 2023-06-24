@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <script src="https://kit.fontawesome.com/8b26c681b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -20,10 +17,10 @@
           </li>
           <div class="mid-nav">
             <li><a href="#" class="blue-text">My URLs</a></li>
-            <li>
+            <li class="flex-ul">
               <a href="#">
-                feature <i class="fa-regular fa-chevron-down"></i
-              ></a>
+                feature</a>
+                <img src="asset/chevron-down.svg" alt="">
             </li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Analytics</a></li>
@@ -39,11 +36,13 @@
       </nav>
 
       <header class="head">
-        <h1 id="title">
-          Optimize your online experience with our advance
-          <span class="blue-text"> URL shortening</span>&nbsp; solution
-        </h1>
-        <img src="asset/Vector 3.svg" class="head-vec" alt="" />
+        <div id="title">
+        <h1>  Optimize your online experience with our advance</h1>
+          <div class="blue-text"> <h1><span class="blue-text"> URL shortening </span>  solution</h1> 
+            <img src="asset/Vector 3.svg" class="head-vec" alt="" />
+            &nbsp; 
+          </div>
+        </div>
         <p class="head-text">
           Personalize your shortened URLs to align with your brand identity.
           Utilize custom slugs, branded links, and domain customization options
@@ -71,25 +70,26 @@
       <section class="flex-box">
         <div class="flex-head">
           <h1 class="title">
-            One Stop.Four <span class="blue-text">Possibilities</span>.
+            One Stop.
           </h1>
+          <h1>Four <span class="blue-text">Possibilities</span>.</h1>
         </div>
         <div class="flex-cont">
           <div class="flex-child">
             <h2 class="flex-head">3M</h2>
-            <p>Active users</p>
+            <p class="flex-head-sub">Active users</p>
           </div>
           <div class="flex-child">
             <h2 class="flex-head">60M</h2>
-            <p>Links & QR codes created</p>
+            <p class="flex-head-sub">Links & QR codes created</p>
           </div>
           <div class="flex-child">
             <h2 class="flex-head">1B</h2>
-            <p>Clicked & Scanned connections</p>
+            <p class="flex-head-sub">Clicked & Scanned connections</p>
           </div>
           <div class="flex-child">
             <h1 class="flex-head">300K</h1>
-            <p>App Integrations</p>
+            <p class="flex-head-sub">App Integrations</p>
           </div>
         </div>
       </section>
@@ -273,6 +273,7 @@
             Trim URL <span><img src="asset/" alt="" /></span>
           </button>
         </form>
+        <p class="small">By clicking TrimURL, I agree to the Terms of Service, Privacy Policy and Use of Cookies.</p>
       </div>
     </div>
     <main class="main">
@@ -370,7 +371,8 @@
       <footer>
         <div class="flex-1">
           <div class="flex-link">
-            <img src="asset/footer-link.svg" alt="">
+            <img src="asset/footer-Logo.svg" alt="">
+            <img src="asset/socials.svg" alt="">
           </div>
           <section class="grid-2">
             <div class="flex-links">
