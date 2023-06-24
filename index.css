@@ -492,7 +492,6 @@ position: relative;
  flex-direction: column;
    max-width: 65.25rem;
    height: 490px;
-    border: 2px solid green; 
    margin-top: 90px;
    margin-bottom: 490px;
  
@@ -508,6 +507,9 @@ position: relative;
 
 }
 @media (max-width:609px){
+body, main{
+   overflow-x: hidden;
+}
    .flex-box{
       display: flex;
      flex-direction: column;
@@ -532,7 +534,6 @@ position: relative;
       margin: auto;
   }
   .sect3-text{
-   border : 2px solid red;
    width: 230px;
    height: 68px;
    text-align: center;
