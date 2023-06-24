@@ -474,9 +474,11 @@ position: relative;
 .pricing-flex{
    display: grid;
    grid-template-columns: repeat(1, 1fr);
-   margin: 60px;
-   margin-left: 100px;
+   
 
+}
+.pricing-top{
+   width: 350px;
 }
 .white1{
   
@@ -507,9 +509,9 @@ position: relative;
 
 }
 @media (max-width:609px){
-body, main{
+ /* main{
    overflow-x: hidden;
-}
+} */
    .flex-box{
       display: flex;
      flex-direction: column;
@@ -520,6 +522,7 @@ body, main{
       grid-template-columns: repeat(1, 1fr);
       margin-top: 30px;
       margin-left: 1rem;
+      width: 309px;
     }
     .card{
       position: relative;
@@ -555,4 +558,16 @@ body, main{
   flex-direction: column;
    align-items: center;
 }
+.big-btn{
+   
+   position: relative;
+      left: 140px;
+      
+   }
+   .green-sec, .green-sec2{
+      width: 33rem;
+   }
+   .form{
+      left: 0px;
+   }
 }
